@@ -849,13 +849,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("sᴇᴀʀᴄʜ", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Aksbackup"), 
             InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Imdb_updates")
-            ],[
-            InlineKeyboardButton("ᴏᴜʀ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Imdb_updates")
             ],[      
             InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
+            ],[          
+            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@noharaadda')    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
