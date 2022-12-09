@@ -395,7 +395,7 @@ def humanbytes(size):
 
 #link converter 
 
-shortzy = Shortzy(SHORTENER_API, "shareus.in")
+shortzy = Shortzy(SHORTENER_API, "mdisklink.link")
 async def get_shortlink(link):
     if SHORTENER_API:
         if LONG_DROPLINK_URL == "True" or LONG_DROPLINK_URL is True:
