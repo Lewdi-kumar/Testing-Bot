@@ -160,7 +160,7 @@ async def pm_next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://mdisk.me/convertor/6x11/oXzkLV')
         ]
     )
 
@@ -247,7 +247,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://mdisk.me/convertor/6x11/oXzkLV')
         ]
     )
 
@@ -956,7 +956,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/Aks_support01_bot')
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/movies_halt_owner_bot')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -1123,7 +1123,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )    
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⚙️ 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽𝙻𝚈 ⚙️', callback_data='admin')
+            InlineKeyboardButton('⚙️ Admin Only ⚙️', callback_data='admin')
             ],[
             InlineKeyboardButton('🔙 𝙱𝙰𝙲𝙺', callback_data='help'),
         ]]
@@ -1330,7 +1330,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://mdisk.me/convertor/6x11/oXzkLV')
         ]
     )
 
