@@ -1451,7 +1451,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/movies_halt_update/2')
         ]
     )
              
