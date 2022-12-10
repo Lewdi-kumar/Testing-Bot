@@ -1,5 +1,3 @@
-# Kanged from https://github.com/KDBotz
-
 import io
 from pyrogram import filters, Client, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -16,7 +14,7 @@ from utils import get_file_id, parser, split_quotes
 from info import ADMINS
 
 
-@Client.on_message(filters.command(['gfilter', 'addg']) & filters.incoming & filters.user(ADMINS))
+@Client.on_message(filters.command(['filter', 'add']) & filters.incoming & filters.user(ADMINS))
 async def addgfilter(client, message):
     args = message.text.html.split(None, 1)
 
