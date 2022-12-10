@@ -858,15 +858,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("↪️ Add Me To Your Group ↩️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Aksbackup"), 
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Imdb_updates")
+            InlineKeyboardButton("⚡ Subscribe ⚡", url="https://t.me/movies_halt"), 
+            InlineKeyboardButton("🤖 Updates 🤖", url="https://t.me/movies_halt_update")
             ],[      
-            InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton("🎭 Help 🎭", callback_data="help"),
+            InlineKeyboardButton("🧩 About 🧩", callback_data="about"),
             ],[          
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@noharaadda')    
+            InlineKeyboardButton('🧑‍💻 Contact Owner 🧑‍💻', url='https://t.me/movies_halt_owner_bot')    
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -906,34 +906,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅs', callback_data='extra'),            
+            InlineKeyboardButton('Extra Mods', callback_data='extra'),            
             ],[
-            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ', callback_data='autofilter'),
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct')
+            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
+            InlineKeyboardButton('Auto Filter', callback_data='autofilter'),
+            InlineKeyboardButton('Connections', callback_data='coct')
             ],[                       
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('sʜᴀʀᴇ-ᴛᴇxᴛ', callback_data='sharetxt'),
-            InlineKeyboardButton('ꜰɪʟᴇ-sᴛᴏʀᴇ', callback_data='newdata')
+            InlineKeyboardButton('Telegraph', callback_data='tele'),
+            InlineKeyboardButton('Share Text', callback_data='sharetxt'),
+            InlineKeyboardButton('File Store', callback_data='newdata')
             ],[           
-            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='son'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),           
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purges')
+            InlineKeyboardButton('JSon', callback_data='son'),
+            InlineKeyboardButton('TTS', callback_data='ttss'),           
+            InlineKeyboardButton('Purge', callback_data='purges')
             ],[
-            InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
-            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')                                   
+            InlineKeyboardButton('Paste', callback_data='pastes'),
+            InlineKeyboardButton("Image", callback_data='image'),
+            InlineKeyboardButton('Ping', callback_data='pings')                                   
             ],[                               
-            InlineKeyboardButton('ᴍᴜᴛᴇ', callback_data='restric'),
-            InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
-            InlineKeyboardButton('ᴘɪɴ', callback_data='pin')
+            InlineKeyboardButton('Mute', callback_data='restric'),
+            InlineKeyboardButton('Kick', callback_data='zombies'),
+            InlineKeyboardButton('Pin', callback_data='pin')
             ],[
-            InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb'),
-            InlineKeyboardButton('ꜰᴏɴᴅ', callback_data='fond'),
-            InlineKeyboardButton('ᴢᴏᴍʙɪᴇ', callback_data='zombies')
+            InlineKeyboardButton('Carbon', callback_data='carb'),
+            InlineKeyboardButton('Font', callback_data='fond'),
+            InlineKeyboardButton('Zombie', callback_data='zombies')
             ],[
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data'),
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')           
+            InlineKeyboardButton('Close', callback_data='close_data'),
+            InlineKeyboardButton('Home', callback_data='start')           
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
@@ -943,10 +943,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('Source Code', callback_data='source')
             ],[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('Home', callback_data='start'),
+            InlineKeyboardButton('Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(
@@ -1144,7 +1144,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.ADMIN_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("Your Not Authorizer ⚠️", show_alert=True)
+            await query.answer("Dhang Se Padh le Only Bot Admin Allowed ⚠️", show_alert=True)
 
     elif query.data == "gfill":
         buttons = [[            
