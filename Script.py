@@ -1,7 +1,7 @@
 class script(object):   
     HELP_TXT = """Hey {} 👋🏻\nHere Is My Help Commands."""
 
-    ABOUT_TXT = """<b>🤖 My Name : <a href=https://t.me/ShizukaMinamotobot><b>Shizuka Minamoto</b></a>\n
+    ABOUT_TXT = """<b>🤖 My Name : <a href=https://t.me/doraemonpocket_bot><b>Doraemon</b></a>\n
 👨‍💻 Developer : <a href=https://t.me/aarthur_dayne><b>Arthur Dayne</b></a>\n
 🧑‍💻 Co-Developer : <a href=https://t.me/astatine_085><b>Astatine 85</b></a>\n
 📝 Language : <a href='https://docs.pyrogram.org/'> Pyrogram</a>\n
@@ -35,7 +35,7 @@ class script(object):
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Doraemon will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. This bot should have admin privillage.
@@ -242,9 +242,9 @@ Translate text to speech
 
 <b>NOTE:</b>
 
-• IMDb should have admin privillage.
+• I should have admin privillage.
 • These commands works on both pm and group.
-• IMDb can translate texts to 200+ languages."""
+• I can translate texts to 200+ languages."""
 
     PINGS_TXT ="""<b>🌟 Ping:</b>
 
